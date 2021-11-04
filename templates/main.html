@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html class="html">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <meta http-equiv="X-UA-Compatible" content="ie-edge"/>
+        <meta name="theme-color" content="#000"/>
+        <meta name="keywords" content="Yulian Brito, Yulian, Brito, Frontend Developer"/>
+        <meta name="author" content="Yulian Brito"/>
+        <title>Yulian Brito</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+        <link href="{{ url_for( 'static', filename='main_style.css')}}" rel="stylesheet">
+    </head>
+
+    <body class="body">
+
+    <!-- Masthead -->
+
+        <section id="masthead" class="masthead">
+            <div class="masthead-container">
+                <div class="masthead-profile-bg">
+                    <div class="masthead-profile-content">
+                        <img
+                            src="{{ url_for('static', filename='av.jpg') }}"
+                            alt="Customer image"
+                            class="masthead__image"
+                          />
+                        <div class="masthead-profile">
+                            <h1 class="masthead__heading">Hi! I'm Fedorov Alexandr.
+                            </h1>
+                            <br/>
+                            <ul class="masthead-items">
+                                <a href="#" target="" class="masthead__link">Twitter</a>
+
+                                <a href="#" target="" class="masthead__link masthead__link--margin">Linkedin</a>
+
+                                <a href="#" target="" class="masthead__link masthead__link--margin">GitHub</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="masthead-wave">
+            <div style="height: 16vh; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #000;"></path></svg></div>
+        </div>
+
+    <!-- About -->
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="title">
+                            <h2 class="title__h2">About</h2>
+                        </div>
+                        <div class="about-timeline">
+                            <div class="timeline-card">
+                                <div class="timeline-card-content">
+                                    <p>&middot;I am programming in Pothon HTML and CSS.</p>
+                                </div>
+
+                                <div class="timeline-card-content timeline-card-content--p">
+                                    <p>&middot; I am learning to create websites as a front-end tick and a backend.</p>
+                                </div>
+
+                                <div class="timeline-card-content timeline-card-content--p">
+                                    <p>&middot; I am currently studying at LETI for instrumentation).</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+    <!-- Skills -->
+
+                    <div class="col col-skills">
+                        <div class="title">
+                            <h2 class="title__h2">Skills</h2>
+                        </div>
+                        <div class="about-timeline">
+                            <div class="skills-title">
+                                <h3 class="title__h3">Languages</h3>
+                            </div>
+                            <div class="skills-content">
+                                <div class="skill">HTML</div>
+                                <div class="skill">CSS</div>
+                                <div class="skill">JavaScript</div>
+                                <div class="skill">Python</div>
+                            </div>
+                            <div class="skills-title skills-title--tech">
+                                <h3 class="title__h3">Tools</h3>
+                            </div>
+                            <div class="skills-content">
+                                <div class="skill">Git & GitHub</div>
+                                <div class="skill">VS Code</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Projects -->
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <h2 class="title__h2">Projects</h2>
+                    </div>
+                </div>
+                <div class="row row--projects">
+                    <div class="col col--project">
+                        <div class="project-card">
+                            <div class="project-card-content">
+                                <div class="project-card-cover">
+                                    <a href="https://github.com/AlexandrFedorow/math_game_web.git" target="_blank" class="fab fa-github fa-2x project__icon"></a>
+
+                                    <a target="_blank" class="fas fa-globe fa-2x project__icon"></a>
+                                </div>
+                                <h3 class="title__h3 title__h3--project">math_game_web</h3>
+                                <div class="project-card-p">My first project that I created with my friend.
+                                </div>
+                            </div>
+                            <div class="skills-content skills-content--project">
+                                <div class="skill skill--project">HTML</div>
+                                <div class="skill skill--project">CSS</div>
+                                <div class="skill skill--project">Python</div>
+                                <div class="skill skill--project">GitHub Pages</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col--project">
+                        <div class="project-card">
+                            <div class="project-card-content">
+                                <div class="project-card-cover">
+                                    <a target="_blank" class="fab fa-github fa-2x project__icon" href="https://github.com/AlexandrFedorow/proga_issledka.git"></a>
+
+                                    <a target="_blank" class="fas fa-globe fa-2x project__icon" ></a>
+                                </div>
+                                <h3 class="title__h3 title__h3--project">proga_issledka</h3>
+                                <div class="project-card-p">The program for building a drawing of a room.
+                                </div>
+                            </div>
+                            <div class="skills-content skills-content--project">
+                                <div class="skill skill--project">Python</div>
+                                <div class="skill skill--project">GitHub Pages</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer-content">
+                <ul class="masthead-items">
+                    <a href="#" target="" class="masthead__link">Twitter</a>
+
+                    <a href="#" target="" class="masthead__link masthead__link--margin">Linkedin</a>
+
+                    <a href="#" target="" class="masthead__link masthead__link--margin">GitHub</a>
+                </ul>
+                <p class="footer__copy">
+                    &copy; 2021 Fedorov Alexandr - <a href="#" target="_blank" class="project__icon project__icon--link">Contact</a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
